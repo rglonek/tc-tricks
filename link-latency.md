@@ -1,5 +1,12 @@
 # Implement link latency to a specific destination
 
+## Centos/Rocky - install netem
+
+```
+yum install kernel-modules-extra
+modprobe sch_netem
+```
+
 ## Setup env vars
 
 ```
